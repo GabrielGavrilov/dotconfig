@@ -17,5 +17,5 @@ Create a `.config` file in the root of your project.
 creating new global variables is easy.
 <br>Creating string variables:
 ```dosini
-VARIABLE_NAME=string of text=string
+VARIABLE_NAME=enter your text here.=string
 ```
