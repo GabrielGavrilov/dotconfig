@@ -1,6 +1,6 @@
 {
-  "name": "dotconfig",
-  "version": "1.0.0",
+  "name": "dotconfigure",
+  "version": "1.0.1",
   "description": "Simple zero-dependency module that loads global variables.",
   "main": "lib/dotconfig.js",
   "scripts": {
