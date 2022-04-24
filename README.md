@@ -4,6 +4,8 @@ Inspired by dotenv. Dotconfig is a simple, lightweight, zero-dependency module t
 
 ## Install
 
+to install dotconfig onto your project, copy this onto your projects terminal.
+
 ```bash
 npm install dotconfigure --save
 ```
