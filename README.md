@@ -16,6 +16,6 @@ Create a `.config` file in the root of your project.
 
 Creating string variables:
 ```dosini
-VARIABLE_NAME=enter your text here.=string
+VARIABLE_NAME=Enter your string of text here.=STRING
 ```
 Note: for dotconfig to work. We will need to define the data type of your variable at the end of the value. For an example, if we want to create a string variable holding a name, we simple do: ``FIRST_NAME=Gabriel=String``
