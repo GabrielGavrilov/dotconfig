@@ -11,3 +11,5 @@ npm install dotconfigure --save
 ```
 
 ## Usage
+
+Create a `.config` file in the root of your project. Inside the `.config` file is where you'll store all the global variables. Without it, you will get an error.
