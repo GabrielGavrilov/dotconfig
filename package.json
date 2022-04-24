@@ -1,0 +1,28 @@
+{
+  "name": "dotconfig",
+  "version": "1.0.0",
+  "description": "Simple zero-dependency module that loads global variables.",
+  "main": "lib/dotconfig.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GabrielGavrilov/dotconfig"
+  },
+  "keywords": [
+    ".config",
+    "dotconfig",
+    "config",
+    "enviroment",
+    "dotenv",
+    "settings",
+    "config",
+    "variables",
+    "constants",
+    "global variables",
+    "global constants"
+  ],
+  "author": "Gabriel Gavrilov",
+  "license": "ISC"
+}
