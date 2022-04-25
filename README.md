@@ -21,6 +21,8 @@ and as early as possible, import dotconfig into your application:
 const config = require('dotconfigure')
 ```
 
+## Variables
+
 Creating variables:
 ```dosini
 VARIABLE_DATA_TYPE=VARIABLE_NAME=value
@@ -34,7 +36,7 @@ Dotconfig currently supports three different data types:
 
 ## Creating string enviroment variables
 
-To create a string enviroment variable:
+To create a string enviroment variables:
 ```dosini
 STRING=SERVER_HOST=localhost
 ```
@@ -57,3 +59,17 @@ BOOLEAN=TEST_MODE=True
 If we call this by ``config.TEST_MODE`` it will output ``true``
 
 *Note: boolean values are case insentivive. if the value would have been all caps, dotconfig would have still read it as "true" or "false".*
+
+## Calling the enviroment variables
+
+Calling the enviroment variables is even easier than making them. If you havent already, require dotconfig onto your application.
+```javascript
+const config = require('dotconfigure')
+```
+Once we have dotconfig required, and some enviroment variables set, we would be able to start using them. For the example, lets say that we want to start an express server with the variables we just created. 
+```javascript
+app.listen(config.SERVER_PORT, config.SERVER_HOST, (err)=> {
+    if(err) throw err;
+    console.log(`Server is listening @ port ${config.SERVER_PORT}`)
+})
+```
