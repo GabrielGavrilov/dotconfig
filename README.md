@@ -73,3 +73,4 @@ app.listen(config.SERVER_PORT, config.SERVER_HOST, (err)=> {
     console.log(`Server is listening @ port ${config.SERVER_PORT}`)
 })
 ```
+Feel free to clone dotconfig's repository (https://github.com/GabrielGavrilov/dotconfig) and play around with it!
