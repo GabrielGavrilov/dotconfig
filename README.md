@@ -1,7 +1,7 @@
 Dotconfig was inspired by dotenv, all credit goes towards them for the idea.
 
 NPM Package: https://www.npmjs.com/package/dotconfigure
-GitHub Repository: 
+<br>GitHub Repository: https://github.com/GabrielGavrilov/dotconfig
 
 # dotconfig 
 
