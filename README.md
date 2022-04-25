@@ -1,6 +1,8 @@
-# dotconfig
+Dotconfig was inspired by dotenv, all credit goes towards them for the idea.
 
-Inspired by dotenv. Dotconfig is a simple, lightweight, zero-dependency module that allows you to store global variables, and use them through out your project. 
+# dotconfig 
+
+Dotconfig is a simple lightweight zero-dependency module that allows developers to create enviroment variables from a ``.config`` file.
 
 ## Install
 
