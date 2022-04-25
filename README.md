@@ -1,5 +1,8 @@
 Dotconfig was inspired by dotenv, all credit goes towards them for the idea.
 
+NPM Package: https://www.npmjs.com/package/dotconfigure
+GitHub Repository: 
+
 # dotconfig 
 
 Dotconfig is a simple lightweight zero-dependency module that allows developers to create enviroment variables in a ``.config`` file. No more having to store your enviroment variables inside your source, start storing them somewhere safer with dotconfig!
@@ -70,7 +73,7 @@ Once we have dotconfig required, and some enviroment variables set, we would be 
 ```javascript
 app.listen(config.SERVER_PORT, config.SERVER_HOST, (err)=> {
     if(err) throw err;
-    console.log(`Server is listening @ port ${config.SERVER_PORT}`)
+    console.log(`Server is listening @ port ${config.SERVER_PORT}`);
 })
 ```
-Feel free to clone dotconfig's repository (https://github.com/GabrielGavrilov/dotconfig) and play around with it!
+And thats it. Dotconfig is a very simple package module that isn't hard to learn at all. Honestly, this took me under an hour initially make, hope you guys enjoy.
